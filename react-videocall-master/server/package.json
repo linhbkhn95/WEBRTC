@@ -1,0 +1,34 @@
+{
+  "name": "react-videocall",
+  "description": "Server for react-videocall app",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node main.js",
+    "watch": "nodemon main.js"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "express": "4.16.2",
+    "socket.io": "2.0.4"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "yarn": "1.3.2"
+  },
+  "author": {
+    "name": "Minh Son Nguyen",
+    "email": "minh.son.nguyen.1209@gmail.com",
+    "url": "https://nguymin4.github.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.9.0",
+    "nodemon": "1.15.1"
+  }
+}
